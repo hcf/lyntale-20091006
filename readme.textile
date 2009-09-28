@@ -1,0 +1,17 @@
+h1. github + runcoderun + heroku
+
+Hvordan github, runcoderun og heroku kan brukes for å utvikle ruby applikasjoner i skyen.
+
+h2. Avhengigheter
+
+* "github":http://github.com konto
+* "runcoderun":http://runcoderun.com konto 
+* "heroku":http://heroku.com konto
+
+h2. Getting started
+
+http://heroku.com/
+http://runcoderun.com/github
+
+
+
