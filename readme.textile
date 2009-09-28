@@ -24,4 +24,9 @@ http://heroku.com/
 http://runcoderun.com/github
 
 
+h2. Problemer
+
+Går det ann å spesifisere hvor rakefile skal ligge?
+
+
 
