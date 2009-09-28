@@ -10,6 +10,16 @@ h2. Avhengigheter
 
 h2. Getting started
 
+# Installer heroku (gem install heroku)
+# heroku create myapp
+# git push heroku
+# Legg til runcoderun som post-receive URL
+# Lag applikasjon
+# Push til github
+# Verifiser at bygget fungerer i runcoderun
+# Deploy til heroku
+
+
 http://heroku.com/
 http://runcoderun.com/github
 
