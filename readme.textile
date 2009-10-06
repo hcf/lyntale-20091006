@@ -2,31 +2,49 @@ h1. github + runcoderun + heroku
 
 Hvordan github, runcoderun og heroku kan brukes for å utvikle ruby applikasjoner i skyen.
 
-h2. Avhengigheter
+h3. Avhengigheter
 
 * "github":http://github.com konto
 * "runcoderun":http://runcoderun.com konto 
 * "heroku":http://heroku.com konto
 
-h2. Getting started
+h3. Steg for steg
 
-# Installer heroku (gem install heroku)
-# heroku create myapp
-# git push heroku
+# Opprett github repository
+# Lag første commit
 # Legg til runcoderun som post-receive URL
 # Lag applikasjon
 # Push til github
 # Verifiser at bygget fungerer i runcoderun
-# Deploy til heroku
+# Installer heroku (gem install heroku)
+# heroku create
+# git push heroku
+# heroku rake db:migrate
+# Verifiser at applikasjonen er oppe å kjøre
+
+h3. Støtte
+
+h5. runcoderun
+
+kjører automatisk rake, og kan kjøre både 1.8.6 og 1.9.1. Database vil automatisk bli generert automatisk, utifra en generert database.yml. Støtter SQLite3, MySQL og PostgreSQL for Rails.
+
+Utgående nettrafikk ikke tillatt.
+
+h5. heroku
+
+kjører alle rack applikasjoner, så rails, merb, sinatra, etc. kan kjøre. har støtte for øyeblikkelig skalerbarhet, ved at du kan endre antall dynos i sanntid.
+
+heroku har for tiden bare servere i USA, men fordi de bygger på Amazon EC2 vil det snart bli tilgjengelig i Europa også.
+
+h5. github
+
+github er ikke beskrevet i stor detalj her, men fungerer som limet for både _runcoderun_ og _heroku_.
 
 
-http://heroku.com/
-http://runcoderun.com/github
+
+h1. Spørsmål
 
 
-h2. Problemer
-
-Går det ann å spesifisere hvor rakefile skal ligge?
 
 
 
