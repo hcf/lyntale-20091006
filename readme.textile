@@ -1,5 +1,5 @@
 h1. github + runcoderun + heroku
-
+ 
 Hvordan github, runcoderun og heroku kan brukes for å utvikle ruby applikasjoner i skyen.
 
 h3. Avhengigheter
